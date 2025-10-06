@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
       host: "0.0.0.0",
     },
     plugins: [react()],
-    base: "/DM_Training",
+    base: "/DM_Training/",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "."),
